@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: "IranSansLight";
+    src: url(../fonts/IRANSansWeb-Light.woff2), format(woff2);
+}
+body{ 
+    font-family: "IranSansLight";
+}
+.hidden{
+     display: none;
+    }
+    
+    @media (max-width: 768px) {
+        .mega-menu,.maga-menu {
+           display: none;
+         }
+        }
+        .invisible {
+            visibility: hidden;
+          }
+          
+          .visible {
+            visibility: visible;
+          }
+          
+          .telegram .telegram-blue {
+            display: none;
+            color: #74c0fc;
+          }
+          .telegram .telegram-gray {
+            display: block;
+            color: #b6b6b6;
+          }
+          .telegram:hover .telegram-blue {
+            display: block;
+          }
+          .telegram:hover .telegram-gray {
+            display: none;
+          }
+          .aparat .aparat-pink {
+            display: none;
+            transform: scale(1.5);
+            color: #f04285;
+          }
+          .aparat .aparat-gray {
+            display: block;
+            transform: scale(1.5);
+            color: #b6b6b6;
+          }
+          .aparat:hover .aparat-pink {
+            display: block;
+          }
+          .aparat:hover .aparat-gray {
+            display: none;
+          }
+          .moon {
+            display: block;
+          }
+          .sun {
+            display: none;
+          }
+          
